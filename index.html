@@ -6,34 +6,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="images/logo.svg" type="icon">
+	<link rel="icon" href="images/logo.svg" type="image/svg+xml">
 	<title>WebCore 1.3</title>
 </head>
 
 <body>
 	<header class="header">
 		<div class="menu menu--without-icons">
-			<button class="button menu-burger__button menu-burger__button--position button--hidden">
+			<button class="menu__burger-button button button--hidden menu__burger-button--position">
 			</button>
 			<div class="menu__divider menu__divider--fp"></div>
 			<div class="logo">
-				<a class="logo_link" href="#">
+				<a class="logo__link" href="#">
 					<img class="logo__link-img" src="images/logo.svg" alt="logo">
 				</a>
 			</div>
-			<button class="button menu-call__button menu-call__button--position button__option button--hidden"></button>
-			<button class="button menu-chat__button menu-chat__button--position button__option button--hidden"></button>
-			<button class="button menu-profile__button menu-profile__button--position button__option button--hidden"></button>
+			<button class="menu__call-button button button--option button--hidden menu__call-button--position"></button>
+			<button class="menu__chat-button button button--option button--hidden menu__chat-button--position"></button>
+			<button class="menu__profile-button button button--option button--hidden menu__profile-button--position" ></button>
 			<div class="menu__divider menu__divider--fp"></div>
 			<label class="menu__label menu__label--position" for="repair">Оставить заявку</label>
-			<button class="button menu-repair__button menu-repair__button--position" id="repair"></button>
+			<button class="menu__repair-button button menu__repair-button--position" id="repair"></button>
 			<label class="menu__label menu__label--position" for="status">Статус ремонта</label>
-			<button class="button menu-status__button menu-status__button--position" id="status"></button>
+			<button class="menu__status-button button menu__status-button--position" id="status"></button>
 		</div>
-	</header>
+</header>
 	<main class="main">
 		<div class="highlight">
-			<h1 class="title title--positon">Услуги и сервисы</h1>
+			<h1 class="title title--position">Услуги и сервисы</h1>
 		</div>
 		<nav class="nav">
 			<ul class="slide-menu slide-menu--position">
@@ -46,6 +46,7 @@
 			</ul>
 		</nav>
 		<section class="info info--position">
+			<div>
 			<div class="info__description info__description--size">
 				<p class="info__paragraph info__paragraph--size">
 					Мы являемся авторизованным сервисным центром по ремонту техники Dell.
@@ -56,11 +57,12 @@
 					постоянных клиентов.
 					Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
 				</p>
-				<button class="info__read-on info_reead-on-positon">
+				</div>
+				<button class="info__read-on info__read-on--position">
 					Читать далее
 				</button>
 			</div>
-			<img class="info__logotip" src="images/logotip.jpg" alt="Логотип">
+			<img class="info__logo" src="images/logotip.jpg" alt="Логотип">
 		</section>
 	</main>
 </body>
