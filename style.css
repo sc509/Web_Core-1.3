@@ -213,20 +213,20 @@ body {
 	letter-spacing: -0.1px;
 }
 
-.title--position {
+.highlight__title {
 	margin: 0;
 	margin-top: 24px;
 	margin-left: 16px;
 }
 
 @media(min-width:768px) and (min-width:1119.99) {
-	.title--position {
+	.highlight__title {
 		margin-left: 24px;
 	}
 }
 
 @media(min-width:1120px) {
-	.title--position {
+	.highlight__title {
 		margin-top: 42px;
 		margin-left: 32px;
 	}
@@ -249,21 +249,21 @@ body {
 	}
 }
 
-.slide-menu--position {
+.nav__slide-menu {
 	margin: 0;
 	margin-top: 24px;
 	margin-left: 16px;
 }
 
 @media(min-width:768px) {
-	.slide-menu--position {
+	.nav__slide-menu {
 		margin-left: 24px;
 		margin-top: 32px;
 	}
 }
 
 @media(min-width:1120px) {
-	.slide-menu--position {
+	.nav__slide-menu {
 		max-height: none;
 		flex-wrap: wrap;
 		margin-top: 8px;
