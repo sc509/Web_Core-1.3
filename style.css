@@ -240,6 +240,13 @@ body {
 	list-style: none;
 
 }
+.slide-menu::-webkit-scrollbar{
+	display: none;
+}
+.slide-menu{
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
 @media(min-width:1120px) {
 	.slide-menu {
 		overflow: hidden;
